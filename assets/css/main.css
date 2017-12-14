@@ -1,6 +1,9 @@
-body{
+.dark-background{
   background-color: #2B2B2B;
-  padding-top: 2em;
+  padding-top: 55%;
+}
+.row{
+  margin:0;
 }
 #splash {
   position:fixed;
@@ -12,11 +15,24 @@ body{
   z-index: 2;
 }
 .lyft-splash{
-  font-weight: 100;
-  color: #ffaa07;
-  font-size: 3.5em;
-  margin: 0;
-  text-align: center;
+  width: 10em;
+}
+.block-center{
+  display: block;
+  margin: 0 auto;
+}
+.sign-buttons{
+  margin: 2em;
+}
+h4{
+  font-size: 1.3em;
+}
+.selectors{
+  margin-top: 5em;
+}
+.large-btn{
+  width: 100%;
+  margin-top: 1em;
 }
 .absolute-center{
   position: absolute;
@@ -24,4 +40,14 @@ body{
   left: 50%;
   /* Its coordinates define how much the element moves in each direction. */
   transform: translate(-50%, -50%);
+}
+.margin-top{
+  margin-top: 5em;
+}
+.end{
+  color: #FFF;
+  font-weight: 600;
+  position: absolute;
+  top: 1em;
+  left: 30%;
 }

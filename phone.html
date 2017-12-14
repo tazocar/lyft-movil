@@ -11,21 +11,44 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <!-- Splash -->
-  <div class="row">
-    <div class="col s12">
-      <div id="splash">
-        <h2 class="lyft-splash absolute-center">Lyft</h2>
+  <header>
+    <nav class="deep-purple darken-1">
+      <div class="row">
+        <div class="col s2">
+          <ul>
+            <li>
+              <a href="sign.html"><i class="material-icons">arrow_back</i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col s8">
+          <h4 class="center-align">Verify Number</h4>
+        </div>
+        <!-- <div class="col s2">
+          <ul>
+            <li>
+              <a href=""><i class="material-icons">arrow_forward</i></a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="row selectors">
+     <form class="input-field col s12">
+       <input id="input-code" type="number" data-length="3">
+       <label for="input-code">Código</label>
+     </form>
+   </div>
+   <div class="row">
+      <div class="col s12">
+        <a class="btn large-btn  deep-purple lighten-1" id="resend">Re Enviar Código</a>
       </div>
     </div>
-  </div>
-
-  <section>
-    <div class="row">
+   <div class="row">
       <div class="col s12">
-        <h2>lyft</h2>
-        <button>Hola</button>
-        <button>Sign Up</button>
+        <a href="sign-up.html" class="btn large-btn disabled margin-top" id="valid-code">Enviar</a>
       </div>
     </div>
   </section>

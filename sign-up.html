@@ -17,7 +17,7 @@
         <div class="col s2">
           <ul>
             <li>
-              <a href="index.html"><i class="material-icons">arrow_back</i></a>
+              <a href="phone.html"><i class="material-icons">arrow_back</i></a>
             </li>
           </ul>
         </div>
@@ -34,29 +34,32 @@
       </div>
     </nav>
   </header>
-
   <section>
-    <div class="row selectors">
-      <div class="col s12">
+    <div class="row margin-top">
+      <form class="col s12">
         <div class="row">
-           <div class="input-field col s3">
-            <select class="icons">
-              <option value="" data-icon="assets/images/chile.png" class="left circle">Chile</option>
-              <option value="" data-icon="assets/images/peru.png" class="left circle">Perú</option>
-              <option value="" data-icon="assets/images/mexico.png" class="left circle">Mexico</option>
-            </select>
+          <div class="input-field col s6">
+            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
           </div>
-          <div class="input-field col s9">
-            <i class="material-icons prefix">phone</i>
-            <input id="phone" type="number" class="validate">
-            <label for="icon_telephone">Teléfono</label>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col s12">
+            <div class="input-field ">
+              <input id="email" type="email" class="validate">
+              <label for="email" data-error="wrong" data-success="right">Email</label>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
     <div class="row">
       <div class="col s12">
-        <a href="phone.html" class="btn large-btn disabled" id="send-phone">Enviar</a>
+        <a href="end.html" class="btn large-btn disabled margin-top" id="send-sign-in">Enviar</a>
       </div>
     </div>
   </section>
